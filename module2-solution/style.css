@@ -3,16 +3,31 @@
 }
 body{
     font-style: Helvetica;
+    text-align: center;
 }
-p {
+h2{
+    font-size: 1.25em;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+h1{
+    font-size: 1.75em;
+}
+section {
     border: 1px solid black;
     background-color: #A52A2A;
     width: 90%;
-    height: 150px;
+    height: auto;
     margin-right: auto;
     margin-left: auto;
     font-family: Helvetica;
     color: white;
+    position: relative;
+
+  }
+  p{
+      margin-top: 60px;
   }
   
   /* Simple Responsive Framework. */
@@ -23,7 +38,6 @@ p {
 @media (min-width: 992px) {
     .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
       float: left;
-      border: 1px solid green;
     }
     .col-lg-1 {
       width: 8.33%;
@@ -67,7 +81,6 @@ p {
   @media (min-width: 768px) and (max-width: 991px) {
     .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
       float: left;
-      border: 1px solid green;
     }
     .col-md-1 {
       width: 8.33%;
