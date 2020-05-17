@@ -77,8 +77,11 @@ $(function() {
 		// *** start ***
 		// On first load, show home view
 		showLoading('#main-content');
-		$ajaxUtils.sendGetRequest(allCategoriesUrl, buildAndShowHomeHTML, true);
-		// ***** <---- TODO: STEP 1: Substitute [...] ******
+		$ajaxUtils.sendGetRequest(
+			allCategoriesUrl, // ***** <---- TODO: STEP 1: Substitute [...] ******
+			buildAndShowHomeHTML,
+			true
+		);
 		// Explicitly setting the flag to get JSON from server processed into an object literal
 	});
 	// *** finish **
